@@ -6,3 +6,11 @@ function printBadges(employees) {
   }
   return employees;
 }
+function tailsNeverFails() {
+  return Math.ceil(Math.random())
+}
+count = 0;
+while tailsNeverFails() {
+  count ++;
+  console.log(`You got ${count} tails in a row!`);
+}
